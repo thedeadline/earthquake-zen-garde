@@ -1,0 +1,49 @@
+$light-gray: #ededed;
+$medium-gray: #777777;
+$dark-gray: #444444;
+$link: #0011bb;
+$visited-link: #6600cc;
+
+body{
+  font-family: sans-serif;
+  color: $dark-gray;
+  margin: unset;
+    h1{
+      font-size: 26px;
+    }
+    .container{
+      table {
+        margin: 20px auto;
+        border-spacing: 20px 0px;
+        max-width: 1000px;
+        caption, th {
+          font-weight: bold;
+        }
+        th {
+          text-align: left;
+          white-space: nowrap;
+        }
+        caption {
+          font-size: 18px;
+          margin: 20px;
+        }
+        tr{
+          vertical-align: top;
+        }
+      }
+    };
+
+    a{
+      color: $link;
+      padding: unset;
+      margin: unset;
+    }
+    a:visited {
+      color: $visited-link;
+    }
+    .root {
+      margin: 8px;
+    }
+}
+
+

@@ -1,0 +1,14 @@
+.earthquakes-table { 
+    button{
+        border: unset;
+        background-color: unset;
+      }
+      #earthquakes-header th{
+        text-align: center;
+      }
+      tbody{
+          td:nth-child(2) {
+              text-align: center;
+          }
+      }
+}

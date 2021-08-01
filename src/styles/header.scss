@@ -1,0 +1,13 @@
+$light-gray: #ededed;
+$medium-gray: #777777;
+.header {
+    background-color: $light-gray;
+    color: $medium-gray;    
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 8px;
+    img {
+        width: 50px;
+    }
+}
