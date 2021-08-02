@@ -9,7 +9,7 @@
     "start": "webpack serve --open"
   },
   "keywords": [],
-  "author": "",
+  "author": "Isabelle Giuong",
   "license": "ISC",
   "dependencies": {
     "chokidar": "^3.5.2",
